@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'lato';
+}
+html {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    height: 782px;
+}
+.first-page {
+    height: 782px;
+    background-image: url(images/Bg.jpg);
+    background-size: cover;
+
+}
+/* NAVIGATION BARRRR!!!!! */
+nav {
+    /* background-color: brown; */
+    position: relative;
+    top: 17px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: space-between;
+}
+.cloudbudget {
+    /* background-color: black; */
+    position: relative;
+    height: 40px;
+    width: 300px;
+    border-radius: 0px;
+    top: 40px;
+}
+.cloud {
+    height: 17.399999618530273px;
+    width: 24.649995803833008px;
+    border-radius: 0px;
+    position: relative;
+    left: 122px;
+    
+}
+h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    position: relative;
+    bottom: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    left: 130px;
+    color: #FFFFFF;
+}
+.six-links {
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 445px;
+    height: 22px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.main {
+    font-weight: 700;
+}
+
+.language {
+    /* background-color: black; */
+    position:relative;
+    left: 0px;
+    top: 13px;
+    width: 350px;
+    height: 80px;
+}
+.american {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 20px;
+}
+.en {
+    color: white;
+    position: absolute;
+    top: 26px;
+    left: 45px;
+    
+}
+.shit {
+    position: absolute;
+    top: 32px;
+    left: 75px;
+    cursor: pointer;
+}
+.button {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 17px;
+    left: 130px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button {
+    border: none;
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 27px;
+}    
+/* SECTION */
+.topchik {
+    /* background-color: black; */
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+h1 {
+    /* position: absolute; */
+    margin: auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text {
+    /* position: absolute; */
+    margin: auto;
+    width: 460px;
+    height: 144px;
+    margin-top: 55px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.pullup {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    top: 300px;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+
+}
+.butt {
+    color: #ED4C5C;
+    border-radius: 6px;
+    margin-left: 29px;
+    margin-top: 6px;
+}
+@media (max-width:1154px) {
+    a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1062px) {
+    .button {
+        left: 130px;
+    }
+}
+@media (max-width:1004px) {
+    a {
+        font-size: 10px;
+    }
+    .language {
+        width: 400px;
+    }
+    .cloud {
+        left: 5px;
+    }
+    h2 {
+        left: 15px;
+        bottom: px;
+    }
+}
+@media (max-width: 890px) {
+    nav {
+        gap: 20px;
+    }
+}
+@media (max-width: 361px) {
+    .cloudbudget {
+        
+    }
+}
